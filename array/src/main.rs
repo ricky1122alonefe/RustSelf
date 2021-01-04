@@ -1,5 +1,10 @@
 fn main() {
-    println!("Hello, world!");
+   let arr:[i32;3] = [1,2,3];
+   let mut mut_arr = [1,2,3];
+   assert_eq!(1,mut_arr[0] );
+   mut_arr[0] = 3;
+   assert_eq!(3,mut_arr[0]);
+   
 }
 
  /**
